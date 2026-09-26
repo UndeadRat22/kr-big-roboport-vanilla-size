@@ -38,7 +38,11 @@ package:
 	@rm -rf $(PACKAGE_DIR) $(RELEASES_DIR)
 	@mkdir -p $(RELEASES_DIR)
 	@mkdir -p $(PACKAGE_DIR)
-	@cp -r changelog.txt data-final-fixes.lua info.json LICENSE README.md thumbnail.png $(PACKAGE_DIR)/
+# Files shipped in the zip: info.json + Lua are runtime requirements,
+# changelog.txt is shown by the in-game mod list, thumbnail.png is read by
+# the mod portal, and LICENSE must accompany MIT-licensed distributions.
+# README.md, tests/, scripts/ and the Makefile are repo-only and stay out.
+	@cp -r changelog.txt data-final-fixes.lua info.json LICENSE thumbnail.png $(PACKAGE_DIR)/
 	@zip -r $(PACKAGE_DIR).zip $(PACKAGE_DIR) >/dev/null
 	@mv $(PACKAGE_DIR).zip $(RELEASES_DIR)/
 	@rm -rf $(PACKAGE_DIR)
