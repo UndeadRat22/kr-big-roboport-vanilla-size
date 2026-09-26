@@ -50,6 +50,12 @@ both at data stage and at runtime: box equality with the vanilla roboport,
 sprite scaling, charging pad bounds, remnant swap, and that two big roboports
 place side by side at 4-tile spacing.
 
+## Credits
+
+The thumbnail is derived from the Krastorio 2 big roboport sprite
+([Krastorio2Assets](https://mods.factorio.com/mod/Krastorio2Assets),
+CC BY-NC-SA 4.0).
+
 ## Notes
 
 - Existing saves: shrinking a collision box is save-safe; placed roboports
