@@ -1,0 +1,11 @@
+{
+  "name": "krb-e2e",
+  "version": "1.0.0",
+  "title": "Big Roboport Vanilla Size E2E",
+  "author": "deadrat22",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "kr-big-roboport-vanilla-size"
+  ],
+  "description": "E2E test harness for kr-big-roboport-vanilla-size. Not for distribution."
+}

@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-09-26
+  Features:
+    - Initial release.
+    - Shrinks Krastorio 2's big roboport (and its logistic-mode / construction-mode variants) from an 8x8 footprint to the vanilla roboport footprint (4x4 selection, 3.4x3.4 collision).
+    - Scales building graphics, shadows, doors, animation, water reflection, charging pads, stationing offset and circuit connector to match.
+    - Uses the vanilla roboport remnant on death (K2's big pipes remnant is sized for much larger buildings and shared with other K2 machines).
+    - All stats unchanged: 100MW charge rate, 20 charging pads, 100/200 logistics/construction radius, 20 robot slots.

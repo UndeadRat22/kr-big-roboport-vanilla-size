@@ -1,0 +1,12 @@
+{
+  "name": "kr-big-roboport-vanilla-size",
+  "version": "1.0.0",
+  "title": "K2 Big Roboport - Vanilla Size",
+  "author": "deadrat22",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.0",
+    "? Krastorio2 >= 2.0.0"
+  ],
+  "description": "Shrinks Krastorio 2's big roboport (and its logistic/construction mode variants) to the vanilla roboport footprint: 4x4 tiles instead of 8x8. Graphics, charging pads, stationing offset and circuit connector are scaled to match. All stats (charging energy, radii, robot slots, health) are unchanged. Without Krastorio 2 installed this mod does nothing."
+}

@@ -1,0 +1,4 @@
+releases/
+*.zip
+.kimchi/
+.DS_Store
